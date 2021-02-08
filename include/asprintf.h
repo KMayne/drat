@@ -1,3 +1,5 @@
+/* Taken from https://stackoverflow.com/a/40160038 - CC BY-SA 3.0 licence */
+
 #ifndef ASPRINTF_H
 #define ASPRINTF_H
 
