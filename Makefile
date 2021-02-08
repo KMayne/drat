@@ -20,6 +20,8 @@ ifneq ($(OS),Windows_NT)
 	ifeq ($(shell uname -s),Darwin)
 		CFLAGS  += -I/usr/local/Cellar/argp-standalone/1.3/include/
 		LDFLAGS += -L/usr/local/Cellar/argp-standalone/1.3/lib/ -largp
+	else
+		CFLAGS  += -I./include/
 	endif
 endif
 
